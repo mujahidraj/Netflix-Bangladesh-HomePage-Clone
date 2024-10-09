@@ -1,0 +1,87 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    top: 2050px;
+    position: absolute;
+    color: white;
+    margin-left: 45px;
+    justify-content: space-between;
+    
+}
+
+.footer-question{
+    font-family: roboto,arial;
+    font-size:15px;
+    margin-bottom: 20px; 
+    text-decoration: underline; 
+    color: darkgray;  
+}
+
+.footer-actual{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: space-between;
+    
+}
+
+.footer-portion{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footer1{
+ 
+    font-family: roboto,arial;
+    font-size: 12px;
+    padding-right: 100px;
+    padding-left: 00px;
+ 
+  
+     
+    
+}
+
+.footer2{
+    
+    font-family: roboto,arial;
+    font-size: 12px;
+    padding-right: 100px;
+    padding-left: 30px;
+}
+
+.footer3{
+    font-family: roboto,arial;
+    font-size: 12px;
+    padding-right: 100px;
+    padding-left: 60px;
+}
+
+.f{
+    margin-bottom: 20px;
+    text-decoration: underline;
+    color: darkgray;
+}
+
+.language{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: transparent;
+    color:darkgray;
+    border-radius: 4px;
+}
+
+.footer-name{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 50px;
+    
+    
+}
