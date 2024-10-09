@@ -1,0 +1,133 @@
+.question-div{
+    display: grid;
+    grid-template-rows: min-content 1fr;
+    width: 94%;
+    position: absolute;
+    color: white;
+    top: 1300px;
+    
+    margin-left: 50px;
+
+    
+
+}
+
+.question-title{
+    margin-bottom: 15px;
+    font-family: roboto,arial;
+    font-size: 20px;
+
+}
+
+.question{
+    display: grid;
+    grid-template-columns: 1fr 60px;
+    margin-bottom: 7px;
+   
+    background-color: rgba(97, 97, 97, 0.381);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 40px;
+    transition: background-color 0.3s;
+
+}
+
+.ques{
+    
+    display: grid;
+    grid-template-rows: 1fr;
+    font-family: roboto,arial;
+    font-size: 18px;
+    
+}
+
+.plus-sign{
+    text-align: right;
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+    background-color: transparent;
+    
+}
+
+.img-butt{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+    width: 40px;
+    height: 40px;
+    border: none;
+}
+
+.question:hover{
+    background-color: rgba(97, 97, 97, 0.635);
+}
+
+.footer-email{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 1900px;
+    color: white;
+    
+    width: 93%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.footer-email-text{
+    font-family: roboto,arial;
+    font-size: 15px;
+    margin-left: 50px;
+}
+
+.email-bar-footer{
+    display: grid;
+    grid-template-columns: 1fr 90px;
+    margin-top: 10px;
+}
+
+.f-e{
+    padding-left: 10px;
+    padding-right: 130px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 4px;
+    border: solid;
+    border-width: 1px;
+    background-color: rgba(169, 169, 169, 0.26);
+    margin-right: 10px;
+    border-width: 1px;
+    border-color: rgba(169, 169, 169, 0.767);
+
+}
+
+.footer-email-button{
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 5px;
+    
+    
+    background-color: red;
+    
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    align-items: center;
+    vertical-align: center;
+}
+
