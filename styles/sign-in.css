@@ -1,0 +1,154 @@
+body{
+    font-family: roboto,arial;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    
+    
+}
+
+.header{
+   
+    display: flex;
+    flex-direction: row;
+    background-color:black;
+    position: relative;
+    
+  
+   
+    
+    
+}
+
+
+.main{
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+    height: 500px;
+    align-items: center;
+    background-image: url("../thumbnail/netflix-background.jpg");
+
+}
+
+
+
+.sign-in-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 440px;
+    color: white;
+   
+}
+
+
+.sign-in-box{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    width: 450px;
+    align-items: center;
+    
+    
+
+}
+.background{
+   
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.first-intro{
+    display: flex;
+    font-size: 32px;
+    font-family: roboto;
+    font-weight: 700;
+    margin-bottom: 8px;
+    text-align: center;
+    
+   
+
+}
+
+.price-div{
+    display: flex;
+    font-size: 16px;
+    margin-bottom: 16px;
+   
+
+}
+
+
+
+.membership-div{
+    display: flex;
+    font-size: 16px;
+    margin-bottom: 5px;
+    text-align: center;
+    
+}
+
+.email-div{
+    display: flex;
+    
+    width: 100%;
+
+}
+
+.email-bar {
+   flex: 1; 
+   
+   margin-right: 10px;
+   
+}
+
+.email-bar::placeholder{
+    color: white;
+}
+
+.email{
+    
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    border-radius: 5px;
+    border: solid;
+    border-width: 1px;
+   border-color: rgba(169, 169, 169, 0.767);
+    background-color: rgba(169, 169, 169, 0.26);
+
+}
+
+.email::placeholder{
+    color: white;
+    padding-left: 10px;
+}
+
+.search-button{
+    width: 150px;
+   
+
+}
+
+.start-button{
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 100%;
+    border-radius: 5px;
+    border: none;
+    background-color: red;
+    color: white;
+    font-size: 13px;
+}
